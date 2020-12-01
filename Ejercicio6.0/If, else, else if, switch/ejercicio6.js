@@ -37,7 +37,7 @@ function Simple(){
 
 //Ejemplo # 3
 
-let numUno = 3;
+/*let numUno = 3;
 
 Simple(numUno);
 
@@ -53,11 +53,15 @@ function Simple(){
     else {
         alert ('El ' + numUno + ' es mayor a 5')
     }
-}
+}*/
 
 
+//------------------------------------------->
+
+//Ejemplo # 4
 
 
+let 
 
 
 
