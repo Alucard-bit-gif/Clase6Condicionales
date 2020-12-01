@@ -60,8 +60,20 @@ function Simple(){
 
 //Ejemplo # 4
 
+//Inicio.
 
-let 
+//Declarar variables.
+
+let horasWork;
+let horasExtra;
+let valorHora = 400;
+let valorExtra = 500;
+let sueldoSem;
+
+//Leer variables
+
+//Ingresar horas trabajadas
+
 
 
 
