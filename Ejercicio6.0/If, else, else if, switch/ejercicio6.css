@@ -39,3 +39,8 @@ body{
     font-size: 20px;
     width: 20%;
 }
+
+.campo{
+    display: block;
+    margin: 0 auto;
+}
