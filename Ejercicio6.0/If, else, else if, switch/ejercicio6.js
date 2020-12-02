@@ -2,20 +2,20 @@
 
 //Ejemplo # 1
 
-/*let numUno = 5;
+let numUno = 5;
 
 Simple(numUno);
 
 function Simple(){
     if(numUno < 4+2)
     alert('El condicional es verdadero')
-}*/
+}
 
 //------------------------------------------->
 
 //Ejemplo # 2
 
-/*let numUno = 8;
+let numUno = 8;
 
 Simple(numUno);
 
@@ -30,14 +30,14 @@ function Simple(){
     alert('El ' + numUno + ' es mayor que 4 + 2');
     }
 
-}*/
+}
 
 
 //------------------------------------------->
 
 //Ejemplo # 3
 
-/*let numUno = 3;
+let numUno = 3;
 
 Simple(numUno);
 
@@ -53,7 +53,7 @@ function Simple(){
     else {
         alert ('El ' + numUno + ' es mayor a 5')
     }
-}*/
+}
 
 
 //------------------------------------------->
@@ -78,7 +78,7 @@ function Calcular()
 
 //Ingresar horas trabajadas
 
-horasWork = Number(document.getElementById('time').value);
+//horasWork = Number(document.getElementById('time').value);//
 
 //Invocar funcion
     
@@ -88,7 +88,6 @@ sueldoSem = pagoSueldo();
     /*document.getElementById('Inicial').value= valorInicial;    
     document.getElementById('Descuento').value= valorDescuento;    
     document.getElementById('Total').value= totalaPagar; */
-    
     
 }
    
@@ -100,7 +99,7 @@ sueldoSem = pagoSueldo();
       
     if(horasWork <= 40)  
         { 
-        sueldoSem = (horasWork*valorHora);
+        sueldoSem = horasWork*valorHora;
         alert('El valor a pagar es:' + ' '  +  sueldoSem);
         return sueldoSem;
         }
@@ -119,9 +118,9 @@ sueldoSem = pagoSueldo();
         sueldoSem = (80*valorHora) + ((horasWork - 80)*valorExtra);
         alert('El valor a pagar es:' + ' '  +  sueldoSem);
         return sueldoSem
-             } 
+        } 
 
-        }
+    }
     
     //Fin
         
