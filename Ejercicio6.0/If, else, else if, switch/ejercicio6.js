@@ -84,9 +84,32 @@ function Calcular()
         document.getElementById('nombre').value= nameMenor;
     }
 
-    else{
+    /*else{
         alert('Inserta la edad correcta');
-    }
+    }*/
  }
 
- 
+//------------------------------------------------------------------------------------------------------------> 
+
+//Ejercicio # 2
+
+let edadPersona;
+let etapaPersona;
+
+etapaEdad(edadPersona);
+
+function etapaEdad(){
+
+    edadPersona = document.getElementById('').value;
+
+    if(edadPersona<=10){
+        etapaPersona = document.querySelector('');
+        etapaPersona.innerHTML = 'Usted es un niño con ' + edadPersona + ' de edad ';        
+    }
+    
+    else if(edadPersona>10 <=15){
+        etapaPersona = document.querySelector('');
+        etapaPersona.innerHTML = 'Usted es un preadoescente con ' + edadPersona + ' de edad ';        
+    }
+
+}
