@@ -7,3 +7,13 @@ body{
     text-align: center;
     margin-top: 50px;
 }
+
+#Horas{
+    display: block;
+    text-align: center;    
+}
+
+#Horas label{
+    font-size: 20px;
+}
+
