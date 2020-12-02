@@ -61,21 +61,26 @@ function Calcular()
 
 //Ejercicio # 1
 
- let broMayor = 4;
- let broMenor = 43;
+ let ageBro;
  let nameMayor = 'Hugo Alberto';
  let nameMenor = 'Carlos Mario';
 
- edad(broMayor);
+ edad(ageBro);
 
  function edad(){
-     if(broMayor == 47){
+
+    ageBro = Number(document.getElementById('age').value);
+
+     if(ageBro == 47){
      alert(nameMayor);
     }
 
-    else{
-
+    else if(ageBro == 43){
         alert(nameMenor);
+    }
+
+    else{
+        alert('Inserta la edad correcta');
     }
  }
 
