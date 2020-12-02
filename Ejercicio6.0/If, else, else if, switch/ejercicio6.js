@@ -5,7 +5,7 @@
 
 //Declarar variables.
 
-let horasWork = 160;
+let horasWork;
 let horasExtra;
 const valorHora = 400;
 const valorExtra = 500;
@@ -17,6 +17,9 @@ Calcular (horasWork);
 
 function Calcular()
 {
+
+    horasWork = Number(document.getElementById('time').value);
+
     if(horasWork <= 40)  
     { 
     sueldoSem = horasWork*valorHora;
@@ -45,7 +48,7 @@ function Calcular()
 
 //Ingresar horas trabajadas
 
-//horasWork = Number(document.getElementById('time').value);//
+////
 
 //Invocar funcion
     
