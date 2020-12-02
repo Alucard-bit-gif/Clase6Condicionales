@@ -61,4 +61,22 @@ function Calcular()
 
 //Ejercicio # 1
 
- 
+ let broMayor = 4;
+ let broMenor = 43;
+ let nameMayor = 'Hugo Alberto';
+ let nameMenor = 'Carlos Mario';
+
+ edad(broMayor);
+
+ function edad(){
+     if(broMayor == 47){
+     alert(nameMayor);
+    }
+
+    else{
+
+        alert(nameMenor);
+    }
+ }
+
+
