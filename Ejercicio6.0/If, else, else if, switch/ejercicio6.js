@@ -1,4 +1,3 @@
-
 //Ejemplo # 4
 
 //Inicio.
@@ -23,34 +22,39 @@ function Calcular()
     if(horasWork <= 40)  
     { 
     sueldoSem = horasWork*valorHora;
+    sueldoExtra =sueldoSem - sueldoSem;
     totalaPagar = sueldoSem;
     alert('El valor a pagar es:' + ' '  +  totalaPagar);
+    document.getElementById('ValorSem').value= sueldoSem;    
+    document.getElementById('ValorTotal').value= totalaPagar;
     return totalaPagar;
     }
 
     else if (horasWork <= 80)
         {
-        sueldoExtra = (40*valorHora) + ((horasWork - 40)*valorHora);
-        totalaPagar = sueldoExtra;
+        sueldoSem = (40*valorHora);
+        sueldoExtra = (horasWork - 40)*valorHora;
+        totalaPagar = sueldoSem + sueldoExtra;
         alert('El valor a pagar es:' + ' '  +  totalaPagar);
+        document.getElementById('ValorSem').value= sueldoSem;    
+        document.getElementById('ValorExtra').value= sueldoExtra;    
+        document.getElementById('ValorTotal').value= totalaPagar;
         return totalaPagar;
         }
 
     else 
         {
-        sueldoExtra = (80*valorHora) + ((horasWork - 80)*valorExtra);
-        totalaPagar = sueldoExtra;
+        sueldoSem = (40*valorHora);
+        sueldoExtra = (40*valorHora) + (horasWork - 80)*valorExtra;
+        totalaPagar = sueldoSem + sueldoExtra;
         alert('El valor a pagar es:' + ' '  +  totalaPagar);
-        return totalaPagar
+        document.getElementById('ValorSem').value= sueldoSem;    
+        document.getElementById('ValorExtra').value= sueldoExtra;    
+        document.getElementById('ValorTotal').value= totalaPagar;
+        return totalaPagar;
         }
-
-
-    //Imprimir
-    /*document.getElementById('Inicial').value= valorInicial;    
-    document.getElementById('Descuento').value= valorDescuento;    
-    document.getElementById('Total').value= totalaPagar; */
     
 }        
    
-
+    
 
