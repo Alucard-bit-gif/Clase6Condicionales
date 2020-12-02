@@ -44,15 +44,6 @@ function Calcular()
         return totalaPagar
         }
 
-//Leer variables
-
-//Ingresar horas trabajadas
-
-////
-
-//Invocar funcion
-    
-sueldoSem = pagoSueldo();
 
     //Imprimir
     /*document.getElementById('Inicial').value= valorInicial;    
