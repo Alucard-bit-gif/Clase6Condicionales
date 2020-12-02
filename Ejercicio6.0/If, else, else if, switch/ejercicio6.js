@@ -62,6 +62,7 @@ function Calcular()
 //Ejercicio # 1
 
  let ageBro;
+ let nameBro;
  let nameMayor = 'Hugo Alberto';
  let nameMenor = 'Carlos Mario';
 
@@ -73,10 +74,14 @@ function Calcular()
 
      if(ageBro == 47){
      alert(nameMayor);
+     document.getElementById('nombre').value= nameMayor;
     }
 
     else if(ageBro == 43){
         alert(nameMenor);
+        nameBro = document.querySelector('h4');
+        nameBro.innerHTML = 'El nombre de tu hermano menor es'; 
+        document.getElementById('nombre').value= nameMenor;
     }
 
     else{
@@ -84,4 +89,4 @@ function Calcular()
     }
  }
 
-
+ 
