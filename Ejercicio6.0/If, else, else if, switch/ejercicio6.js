@@ -22,7 +22,7 @@ function Calcular()
     if(horasWork <= 40)  
     { 
     sueldoSem = horasWork*valorHora;
-    sueldoExtra =sueldoSem - sueldoSem;
+    sueldoExtra = 0;
     totalaPagar = sueldoSem;
     alert('El valor a pagar es:' + ' '  +  totalaPagar);
     document.getElementById('ValorSem').value= sueldoSem;    
