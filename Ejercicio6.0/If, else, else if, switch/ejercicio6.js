@@ -109,7 +109,12 @@ function etapaEdad(){
     
     else if(edadPersona<=15){
         etapaIndividuo = document.querySelector('h2');
-        etapaIndividuo.innerHTML = 'Usted es un preadolescente con ' + edadPersona + ' de edad ';        
+        etapaIndividuo.innerHTML = 'Usted es un preadolescente con ' + edadPersona + ' años de edad ';        
+    }
+
+    else if(edadPersona<=18){
+        etapaIndividuo = document.querySelector('h2');
+        etapaIndividuo.innerHTML = 'Usted es un adolescente con ' + edadPersona + ' años de edad ';        
     }
 
     else{
