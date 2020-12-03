@@ -1,15 +1,11 @@
 //Ejercicio # 3
 
-let nameOne;
-let nameTwo;
-let salarioWorkerA;
-let salarioWorkerB;
-const deduccionesMes= 0.08;
-const bonificacionesMes = 0.30;
-let valorDeduccionA;
-let valorDeduccionB;
-let valorBonoA;
-let valorBonoB;
+let busOne;
+let busTwo;
+let pasajerosA;
+let pasajerosB;
+let valorPasajeA;
+let valorPasajeB;
 let valorTotalA;
 let valorTotalB;
 
@@ -17,35 +13,25 @@ mayorIngreso();
 
 function mayorIngreso(){
 
-    nameOne = document.getElementById('nameOne').value;
-    nameTwo = document.getElementById('nameTwo').value;
+    busOne = document.getElementById('plateOne').value;
+    busTwo = document.getElementById('plateTwo').value;
     
-    salarioWorkerA = Number(document.getElementById('salarioA').value);
-    salarioWorkerB = Number(document.getElementById('salarioB').value);
-    
-    valorDeduccionA = salarioWorkerA*deduccionesMes;
-    valorBonoA = salarioWorkerA*bonificacionesMes;
-    valorTotalA = (salarioWorkerA - valorDeduccionA) + valorBonoA; 
-    
-    valorDeduccionB = salarioWorkerB*deduccionesMes;
-    valorBonoB = salarioWorkerB*bonificacionesMes;
-    valorTotalB = (salarioWorkerB - valorDeduccionB) + valorBonoB; 
+    pasajerosA = Number(document.getElementById('usuariosA').value);
+    pasajerosB = Number(document.getElementById('usuariosB').value);
 
+    valorPasajeA = Number(document.getElementById('valorPasaje1').value);
+    valorPasajeA = Number(document.getElementById('valorPasaje2').value);
+    
+    valorTotalA = pasajerosA*valorPasajeA;
+    valorTotalB = pasajerosB*valorPasajeB;
+    
     
     if(valorTotalA>valorTotalB){
-        document.getElementById('ValorTotal').value= nameOne;
-        document.getElementById('moneyMore').value= valorBonoA;
-        document.getElementById('moneyLess').value= valorDeduccionA;
-        document.getElementById('moneyMore2').value= valorBonoB;
-        document.getElementById('moneyLess2').value= valorDeduccionB;
+        document.getElementById('ValorTotal').value= busOne;
     }
     
     else {
-        document.getElementById('ValorTotal').value= nameTwo;
-        document.getElementById('moneyMore2').value= valorBonoB;
-        document.getElementById('moneyLess2').value= valorDeduccionB;
-        document.getElementById('moneyMore').value= valorBonoA;
-        document.getElementById('moneyLess').value= valorDeduccionA;
+        document.getElementById('ValorTotal').value= busTwo;
     }
 
 }
