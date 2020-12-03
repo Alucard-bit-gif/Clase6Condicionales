@@ -59,12 +59,12 @@
 
 #Delta{
     float:left;
-    border-style: dotted;
+    border-style: solid;
     display: block;
     text-align: center;
     align-content: center;
     margin: 0px auto;
-    border-color: 2 px solid white;
+    border-color: 2 px solid rgb(0, 0, 0);
     padding-bottom: 50px;
     font-size: 20px;
     width: 21%;
@@ -100,7 +100,7 @@
     text-align: center;
     align-content: center;
     margin: 0 auto;
-    margin-top: 450px;
+    margin-top: 500px;
     font-size: 20px;
     padding: 10px;
     border-radius: 20px;
@@ -114,4 +114,26 @@
     text-align: center;
     padding-bottom: 45px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 35px;
+}
+
+.texto
+{
+    margin: 10px 10px 10px 10px;
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 8px;
+  }
+
+
+.campo
+{
+  margin: 50px 50px 50px 40px;
+  width: 650px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding-left: 8px;
 }
