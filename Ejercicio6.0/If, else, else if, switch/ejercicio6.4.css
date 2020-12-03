@@ -16,7 +16,12 @@
   font-size: 20px;
   font-family: Arial;
   }
-  
+
+  h1{
+    padding: 20px 0px 0px 30px;
+    font-family: Arial;
+    }
+
   body::before {
     content: '';
     position: fixed;
@@ -41,11 +46,11 @@
 #mayorDinero{
     display: block;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 90px;
+    margin-bottom: 70px;
 }
 
-#workerOne, #workerTwo{
+#busOne, #busTwo{
     display: block;
     text-align: center;
     margin-top: 35px;
@@ -59,31 +64,37 @@
     text-align: center;
     align-content: center;
     margin: 0px auto;
-    border: 2 px solid white;
+    border-color: 2 px solid white;
     padding-bottom: 50px;
     font-size: 20px;
-    width: 20%;
-    margin-left: 200px;
+    width: 21%;
+    margin-left: 110px;
+    background-color: rgba(111, 0, 255, 0.5);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #Gama{
     
     float:right;
-    border-style: dotted;
+    border-style:solid;
     display: block;
     text-align: center;
     align-content: center;
     margin: 0px auto;
-    border: 2 px solid white;
+    border-color: 2 px solid rgb(0, 0, 0);
     padding-bottom: 50px;
     font-size: 20px;
-    width: 20%;
-    margin-right: 200px;
+    width: 21%;
+    margin-right: 110px;
+    background-color: rgba(111, 0, 255, 0.5);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 #Boton{
-    background-color: rgb(18, 4, 145);
+    background-color: rgba(65, 4, 145, 0.699);
     display: block;
     color: white;
     text-align: center;
@@ -92,12 +103,15 @@
     margin-top: 450px;
     font-size: 20px;
     padding: 10px;
+    border-radius: 20px;
+    width: 400px;
 }
 
-#salarioNeto
+#ingresoBus
 
 {
-    padding-top: 20px;
+    padding-top: 50px;
     text-align: center;
     padding-bottom: 45px;
+    font-family: Arial, Helvetica, sans-serif;
 }
