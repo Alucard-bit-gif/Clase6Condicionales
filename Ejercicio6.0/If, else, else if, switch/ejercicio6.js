@@ -94,22 +94,22 @@ function Calcular()
 //Ejercicio # 2
 
 let edadPersona;
-let etapaPersona;
+let etapaIndividuo;
 
 etapaEdad(edadPersona);
 
 function etapaEdad(){
 
-    edadPersona = document.getElementById('').value;
+    edadPersona = Number(document.getElementById('age').value);
 
     if(edadPersona<=10){
-        etapaPersona = document.querySelector('');
-        etapaPersona.innerHTML = 'Usted es un niño con ' + edadPersona + ' de edad ';        
+        etapaIndividuo = document.querySelector('h2');
+        etapaIndividuo.innerHTML = 'Usted es un niño con ' + edadPersona + ' años de edad ';        
     }
     
-    else if(edadPersona>10 <=15){
-        etapaPersona = document.querySelector('');
-        etapaPersona.innerHTML = 'Usted es un preadoescente con ' + edadPersona + ' de edad ';        
+    else {
+        etapaIndividuo = document.querySelector('h2');
+        etapaIndividuo.innerHTML = 'Usted es un preadolescente con' + edadPersona + ' de edad ';        
     }
 
 }
