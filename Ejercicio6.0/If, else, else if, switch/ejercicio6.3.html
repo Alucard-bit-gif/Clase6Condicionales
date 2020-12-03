@@ -7,15 +7,16 @@
     <title>Ejercicio6.3</title>
 </head>
 <body>
-    <div id= "SalarioMensual">
-        <h1>Salario Mensual</h1>
+    <div id= "mayorSalario">
+        <h1>¿Quién obtiene mayor ingreso neto? </h1>
     </div>
+<section id= "Delta">
     <div id= "workerOne">
       <h3>Trabajador Delta</h3>
   </div>
     <div id= "Nombre">
       <div>
-          <label for="">Nombre</label>
+          <label for="">Nombre</label><br>
           <input type="text" id= "nameOne">        
       </div>
   </div>
@@ -37,13 +38,14 @@
         <input type="text" id= "moneymore">
     </div>
   </div>
-  
+</section>
+<section id= "Gama">
   <div id= "workerTwo">
     <h3>Trabajador Gama</h3>
   </div>
   <div id= "Nombre">
     <div>
-        <label for="">Nombre</label>
+        <label for="">Nombre</label><br>
         <input type="text" id= "nameTwo">        
     </div>
   </div>
@@ -65,11 +67,12 @@
       <input type="text" id= "moneymore2">
   </div>
   </div>
+</section>
   
-  <button id= "Boton" onclick="mayorIngreso()">Calcular</button>
+<button id= "Boton" onclick="mayorIngreso()">Calcular</button>
   
-    <div id= "SalarioNeto">
-        <h3>El trabajador con mayor salario neto es</h3>
+    <div id= "salarioNeto">
+        <h2>El trabajador con mayor salario neto es</h2>
         <input type= text id= "ValorTotal" class= "campo">
     </div>
     <hr>
