@@ -100,7 +100,7 @@ etapaEdad(edadPersona);
 
 function etapaEdad(){
 
-    edadPersona = Number(document.getElementById('age').value);
+    edadPersona = Number(document.getElementById('agepeople').value);
 
     if(edadPersona<=10){
         etapaIndividuo = document.querySelector('h2');
