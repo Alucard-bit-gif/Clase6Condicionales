@@ -31,9 +31,73 @@
         rgba(58, 58, 158, 0.7),
         rgba(131, 131, 173, 0.7)
       ),
-   url("https://colegiocuernavaca.edu.mx/wp-content/uploads/2020/09/Geek.jpg")  ; 
+   url("https://product.hubspot.com/hubfs/Bus.png")  ; 
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
     height: 100vh;
   }
+
+#mayorDinero{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#workerOne, #workerTwo{
+    display: block;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+#Delta{
+    float:left;
+    border-style: dotted;
+    display: block;
+    text-align: center;
+    align-content: center;
+    margin: 0px auto;
+    border: 2 px solid white;
+    padding-bottom: 50px;
+    font-size: 20px;
+    width: 20%;
+    margin-left: 200px;
+}
+
+#Gama{
+    
+    float:right;
+    border-style: dotted;
+    display: block;
+    text-align: center;
+    align-content: center;
+    margin: 0px auto;
+    border: 2 px solid white;
+    padding-bottom: 50px;
+    font-size: 20px;
+    width: 20%;
+    margin-right: 200px;
+}
+
+
+#Boton{
+    background-color: rgb(18, 4, 145);
+    display: block;
+    color: white;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 450px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#salarioNeto
+
+{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 45px;
+}
