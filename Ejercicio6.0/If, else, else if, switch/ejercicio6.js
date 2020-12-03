@@ -117,7 +117,13 @@ function etapaEdad(){
         etapaIndividuo.innerHTML = 'Usted es un adolescente con ' + edadPersona + ' años de edad ';        
     }
 
+    else if(edadPersona<=50){
+        etapaIndividuo = document.querySelector('h2');
+        etapaIndividuo.innerHTML = 'Usted es un adulto con ' + edadPersona + ' años de edad ';        
+    }
+
     else{
-        alert("error");
+        etapaIndividuo = document.querySelector('h2');
+        etapaIndividuo.innerHTML = 'Usted es un adulto mayor con ' + edadPersona + ' años de edad ';        
     }
 }
