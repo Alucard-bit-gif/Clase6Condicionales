@@ -20,7 +20,7 @@ function mayorIngreso(){
     pasajerosB = Number(document.getElementById('usuariosB').value);
 
     valorPasajeA = Number(document.getElementById('valorPasaje1').value);
-    valorPasajeA = Number(document.getElementById('valorPasaje2').value);
+    valorPasajeB = Number(document.getElementById('valorPasaje2').value);
     
     valorTotalA = pasajerosA*valorPasajeA;
     valorTotalB = pasajerosB*valorPasajeB;
