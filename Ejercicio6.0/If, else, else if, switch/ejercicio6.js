@@ -24,7 +24,7 @@ function Calcular()
     sueldoSem = horasWork*valorHora;
     sueldoExtra = 0;
     totalaPagar = sueldoSem;
-    alert('El valor a pagar es:' + ' '  +  totalaPagar);
+    //alert('El valor a pagar es:' + ' '  +  totalaPagar);
     document.getElementById('ValorSem').value= sueldoSem;    
     document.getElementById('ValorTotal').value= totalaPagar;
     return totalaPagar;
@@ -35,7 +35,7 @@ function Calcular()
         sueldoSem = (40*valorHora);
         sueldoExtra = (horasWork - 40)*valorHora;
         totalaPagar = sueldoSem + sueldoExtra;
-        alert('El valor a pagar es:' + ' '  +  totalaPagar);
+        //alert('El valor a pagar es:' + ' '  +  totalaPagar);
         document.getElementById('ValorSem').value= sueldoSem;    
         document.getElementById('ValorExtra').value= sueldoExtra;    
         document.getElementById('ValorTotal').value= totalaPagar;
@@ -47,7 +47,7 @@ function Calcular()
         sueldoSem = (40*valorHora);
         sueldoExtra = (40*valorHora) + (horasWork - 80)*valorExtra;
         totalaPagar = sueldoSem + sueldoExtra;
-        alert('El valor a pagar es:' + ' '  +  totalaPagar);
+        //alert('El valor a pagar es:' + ' '  +  totalaPagar);
         document.getElementById('ValorSem').value= sueldoSem;    
         document.getElementById('ValorExtra').value= sueldoExtra;    
         document.getElementById('ValorTotal').value= totalaPagar;
@@ -107,9 +107,12 @@ function etapaEdad(){
         etapaIndividuo.innerHTML = 'Usted es un niño con ' + edadPersona + ' años de edad ';        
     }
     
-    else {
+    else if(edadPersona<=15){
         etapaIndividuo = document.querySelector('h2');
-        etapaIndividuo.innerHTML = 'Usted es un preadolescente con' + edadPersona + ' de edad ';        
+        etapaIndividuo.innerHTML = 'Usted es un preadolescente con ' + edadPersona + ' de edad ';        
     }
 
+    else{
+        alert("error");
+    }
 }
