@@ -47,8 +47,22 @@
 
 h1 {
     padding: 20px 0px 0px 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(5, 3, 83);  
     color-adjust: exact;
     font-weight: bolder;
     }
+
+.form-geek
+{
+background-color: rgba(5, 5, 32, 0.8);
+margin: 50px 300px 50px 330px;
+border-width: 0px;
+border-color: #000000;
+border-style: solid;
+border-radius: 5px;
+height: 1550px;
+font-family: arial;
+color: #ffffff;
+padding-top: 50px;
+}
