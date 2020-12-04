@@ -8,7 +8,7 @@ let pasajerosB;
 let valorPasajeA;
 let valorPasajeB;
 let valorTotalA;
-let valorTotalB;
+
 
 mayorIngreso();
 
@@ -16,8 +16,8 @@ function mayorIngreso(){
 
     busOne = document.getElementById('plateOne').value;
     
-    rutaA = Number(document.getElementById('rutaA').value);
-    rutaB = Number(document.getElementById('rutaB').value);
+    rutaA = document.getElementById('rutaA').value);
+    rutaB = document.getElementById('rutaB').value);
     
     pasajerosA = Number(document.getElementById('usuariosA').value);
     pasajerosB = Number(document.getElementById('usuariosB').value);
@@ -25,12 +25,13 @@ function mayorIngreso(){
     valorPasajeA = Number(document.getElementById('valorPasaje1').value);
     valorPasajeB = Number(document.getElementById('valorPasaje2').value);
     
-    valorTotalA = pasajerosA*valorPasajeA;
-    valorTotalB = pasajerosB*valorPasajeB;
+    valorTotalA = (pasajerosA*valorPasajeA) + (pasajerosB*valorPasajeB);
     
     
-    if(valorTotalA>valorTotalB){
-        document.getElementById('ValorTotal').value= busOne;
+    
+    if(valorTotalA){
+        document.getElementById('ValorTotal').value= valorTotalA;
+        return valorTotalA;
     }
     
     else {
