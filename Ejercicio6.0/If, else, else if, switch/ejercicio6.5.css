@@ -20,14 +20,14 @@
   h1 {
     padding: 20px 0px 0px 30px;
     font-family: Arial;
-    color: rgb(11, 2, 63);  
+    color: #ffffff;  
     color-adjust: exact;
     }
 
   #flota {
         padding: 20px 0px 30px 30px;
         font-family: Arial;
-        color: rgb(11, 2, 63);  
+        color: #ffffff;  
         color-adjust: exact;
         text-align: center;
         }
@@ -65,7 +65,7 @@
     padding: 20px 0px 30px 30px;
     font-family: Arial;
     font-size: 25px;
-    color: rgb(11, 2, 63);  
+    color: #ffffff;  
     color-adjust: exact;
     display: block;
     text-align: center;
@@ -175,6 +175,7 @@
 
 h2
 {
-    color: rgb(7, 1, 43);  
-    font-weight: bold;   
+    color: #ffffff;  
+    font-weight: bolder;   
+    font-size: 25px;
 }
