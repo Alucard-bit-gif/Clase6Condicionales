@@ -1,7 +1,8 @@
 //Ejercicio # 3
 
 let busOne;
-let busTwo;
+let rutaA;
+let rutaB;
 let pasajerosA;
 let pasajerosB;
 let valorPasajeA;
@@ -14,7 +15,9 @@ mayorIngreso();
 function mayorIngreso(){
 
     busOne = document.getElementById('plateOne').value;
-    busTwo = document.getElementById('plateTwo').value;
+    
+    rutaA = Number(document.getElementById('rutaA').value);
+    rutaB = Number(document.getElementById('rutaB').value);
     
     pasajerosA = Number(document.getElementById('usuariosA').value);
     pasajerosB = Number(document.getElementById('usuariosB').value);
