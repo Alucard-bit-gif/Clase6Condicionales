@@ -16,8 +16,8 @@ function mayorIngreso(){
 
     busOne = document.getElementById('plateOne').value;
     
-    rutaA = document.getElementById('rutaA').value);
-    rutaB = document.getElementById('rutaB').value);
+    rutaA = document.getElementById('rutaA').value;
+    rutaB = document.getElementById('rutaB').value;
     
     pasajerosA = Number(document.getElementById('usuariosA').value);
     pasajerosB = Number(document.getElementById('usuariosB').value);
