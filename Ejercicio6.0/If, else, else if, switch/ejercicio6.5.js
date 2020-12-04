@@ -35,7 +35,7 @@ function mayorIngreso(){
     }
     
     else {
-        document.getElementById('ValorTotal').value= busTwo;
+        document.getElementById('ValorTotal').value= "Error";
     }
 
 }
