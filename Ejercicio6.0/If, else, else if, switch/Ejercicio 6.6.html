@@ -27,10 +27,11 @@
           <input type="text" id="name" placeholder="" required>
           <br><br>
           <div class= "nivelgeek">
-            <label for="nivel-geek" class="usergeek"><strong>Tipo de Trabajador</strong> 
+            <label for="nivel-geek" class="usergeek"><strong>Tipo de Contrato</strong> 
             </label>
             </div> <br>
             <select name="tipo" id="name" size="1" required>
+                <option type="text">
                 <option value="fijo">Fijo</option>
                 <option value="temporal">Temporal</option>
             </select>
@@ -48,7 +49,11 @@
                 <label for="nombre-usuario" class="usergeek" id="name-label"><strong>Total Bonificaciones</strong> 
                 </label>
                 </div> <br>
-                <input type="text" id="name" placeholder="30% salario bruto" required>    
+                <input type="text" id="name" placeholder="30% salario bruto" required>  
+                
+                <button id= "Boton" onclick="mayorIngreso()">Calcular</button>
+
+                
         </div>
     </form>
 </body>
