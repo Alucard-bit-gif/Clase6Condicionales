@@ -98,3 +98,17 @@ padding-top: 50px;
   font-weight: bolder; 
 }
 
+#resultado{
+background-color: rgba(5, 5, 32, 0.8);
+margin: 50px 300px 50px 330px;
+border-width: 0px;
+border-color: #000000;
+border-style: solid;
+border-radius: 5px;
+height: 900px;
+font-family: arial;
+color: #ffffff;
+padding-top: 50px;
+}
+
+
