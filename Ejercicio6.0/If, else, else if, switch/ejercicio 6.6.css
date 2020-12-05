@@ -51,6 +51,7 @@ h1 {
     color: rgb(5, 3, 83);  
     color-adjust: exact;
     font-weight: bolder;
+    font-size: 45px;
     }
 
 .form-geek
@@ -123,4 +124,12 @@ h2
 {
   text-align: center;
   font-size: 60px;
+}
+
+#pesos
+
+{
+  text-align: center;
+  font-size: 150px;
+  margin-top: 80px;
 }
