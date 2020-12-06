@@ -4,28 +4,41 @@ document.getElementById('resultado').style.display="none"; /*Ocultar contenedor 
 //Ejercicio # 3
 
 let nameOne;
-let nameTwo;
 let tipoContrato;
-let salarioWorkerA;
-let salarioWorkerB;
+let horasWork;
+const valorHora = 6000;
+let salarioBruto;
 const deduccionesMes= 0.08;
 const bonificacionesMes = 0.30;
-let valorDeduccionA;
-let valorBonoA;
-let valorTotal;
+let valorDeduccion;
+let valorBono;
+let salarioNeto;
 
+//Leer y procedimiento con variables iniciales
 
-Calcular();
+horasWork = document.getElementById('number').value;
+salarioBruto = valorHora*horasWork;
+document.getElementById('Inicial').value= valorInicial;    
 
 function Calcular(){
 
     nameOne = document.getElementById('nameOne').value;
 
     tipoContrato = document.getElementById('fijoTemporal').value;
+
+    totalPago = salarioNeto();
+
+    //Imprimir
     
     
-    salarioWorkerA = Number(document.getElementById('salarioA').value);
-    salarioWorkerB = Number(document.getElementById('salarioB').value);
+    
+    
+    
+    
+    
+    
+    
+    
     
     valorDeduccionA = salarioWorkerA*deduccionesMes;
     valorBonoA = salarioWorkerA*bonificacionesMes;
