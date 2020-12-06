@@ -164,3 +164,33 @@ h2
   font-size: 150px;
   margin-top: 80px;
 }
+
+#salarioBruto
+{
+  margin: 0px 50px 30px 40px;
+  width: 650px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding-left: 8px;
+}
+
+#totalDeducciones
+{
+  margin: 0px 50px 30px 40px;
+  width: 650px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding-left: 8px;
+}
+
+#totalBonos
+{
+  margin: 0px 50px 30px 40px;
+  width: 650px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding-left: 8px;
+}
