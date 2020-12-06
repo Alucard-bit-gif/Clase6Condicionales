@@ -11,17 +11,17 @@ let salarioWorkerB;
 const deduccionesMes= 0.08;
 const bonificacionesMes = 0.30;
 let valorDeduccionA;
-
 let valorBonoA;
+let valorTotal;
 
-let valorTotalA;
-let valorTotalB;
 
 Calcular();
 
 function Calcular(){
 
     nameOne = document.getElementById('nameOne').value;
+
+    tipoContrato = document.getElementById('fijoTemporal').value;
     
     
     salarioWorkerA = Number(document.getElementById('salarioA').value);
@@ -36,20 +36,12 @@ function Calcular(){
     valorTotalB = (salarioWorkerB - valorDeduccionB) + valorBonoB; 
 
     
-    if(valorTotalA>valorTotalB){
-        document.getElementById('ValorTotal').value= nameOne;
-        document.getElementById('moneyMore').value= valorBonoA;
-        document.getElementById('moneyLess').value= valorDeduccionA;
-        document.getElementById('moneyMore2').value= valorBonoB;
-        document.getElementById('moneyLess2').value= valorDeduccionB;
+    if(tipoContrato == 'Fijo'){
+        
     }
     
     else {
-        document.getElementById('ValorTotal').value= nameTwo;
-        document.getElementById('moneyMore2').value= valorBonoB;
-        document.getElementById('moneyLess2').value= valorDeduccionB;
-        document.getElementById('moneyMore').value= valorBonoA;
-        document.getElementById('moneyLess').value= valorDeduccionA;
+        
     }
 
 }
