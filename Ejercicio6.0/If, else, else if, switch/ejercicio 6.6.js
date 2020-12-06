@@ -10,15 +10,15 @@ let salarioWorkerB;
 const deduccionesMes= 0.08;
 const bonificacionesMes = 0.30;
 let valorDeduccionA;
-let valorDeduccionB;
+
 let valorBonoA;
-let valorBonoB;
+
 let valorTotalA;
 let valorTotalB;
 
-mayorIngreso();
+Calcular();
 
-function mayorIngreso(){
+function Calcular(){
 
     nameOne = document.getElementById('nameOne').value;
     nameTwo = document.getElementById('nameTwo').value;
