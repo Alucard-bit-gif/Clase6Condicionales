@@ -104,6 +104,17 @@ padding-top: 50px;
   padding-left: 8px;
 }
 
+#number
+{
+  margin: 0px 50px 30px 40px;
+  width: 650px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding-left: 8px;
+}
+
+
 #Boton{
   background-color: rgba(11, 241, 107, 0.699);
   display: block;
