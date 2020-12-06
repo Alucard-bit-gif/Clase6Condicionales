@@ -5,6 +5,7 @@ document.getElementById('resultado').style.display="none"; /*Ocultar contenedor 
 
 let nameOne;
 let nameTwo;
+let tipoContrato;
 let salarioWorkerA;
 let salarioWorkerB;
 const deduccionesMes= 0.08;
@@ -21,7 +22,7 @@ Calcular();
 function Calcular(){
 
     nameOne = document.getElementById('nameOne').value;
-    nameTwo = document.getElementById('nameTwo').value;
+    
     
     salarioWorkerA = Number(document.getElementById('salarioA').value);
     salarioWorkerB = Number(document.getElementById('salarioB').value);
