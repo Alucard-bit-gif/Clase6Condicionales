@@ -16,9 +16,9 @@ let salarioNeto;
 
 //Leer y procedimiento con variables iniciales
 
-horasWork = document.getElementById('number').value;
+horasWork = Number(document.getElementById('number').value);
 salarioBruto = valorHora*horasWork;
-document.getElementById('salarioBruto').value= salarioBruto;    
+document.getElementById('salarioBruto').value=valorHora*horasWork;    
 
 function Calcular(){
 
