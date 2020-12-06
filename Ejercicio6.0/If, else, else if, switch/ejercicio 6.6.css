@@ -62,7 +62,7 @@ border-width: 0px;
 border-color: #000000;
 border-style: solid;
 border-radius: 5px;
-height: 1000px;
+height: 1100px;
 font-family: arial;
 color: #ffffff;
 padding-top: 50px;
@@ -193,4 +193,19 @@ h2
   border-radius: 5px;
   font-size: 18px;
   padding-left: 8px;
+}
+
+#BotonC{
+  background-color: rgba(11, 241, 107, 0.699);
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  align-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 400px;
+  font-weight: bolder; 
 }

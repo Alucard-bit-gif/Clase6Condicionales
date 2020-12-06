@@ -24,13 +24,13 @@
           <label for="nombre-usuario" class="usergeek" id="name-label"><strong>Nombre del colaborador</strong> 
           </label>
           </div> <br>
-          <input type="text" id="nameOne" placeholder="" required>
+          <input type="text" id="nameOne" placeholder="">
           <br><br>
           <div class= "nivelgeek">
             <label for="nivel-geek" class="usergeek"><strong>Tipo de Contrato</strong> 
             </label>
             </div> <br>
-            <select name="tipo" id="fijoTemporal" size="1" required>
+            <select name="tipo" id="fijoTemporal" size="1">
                 <option type="text">
                 <option value="fijo">Fijo</option>
                 <option value="temporal">Temporal</option>
@@ -39,7 +39,7 @@
                 <label for="nombre-usuario" class="usergeek" id="name-label"><strong>Horas laboradas</strong> 
                 </label>
                 </div> <br>
-                <input type="number" id="number" name="cantidad" min="60" max="240">
+                <input type="text" id="number">
                 <div class= "nombre">
                 <label for="nombre-usuario" class="usergeek" id="name-label"><strong>Valor Hora</strong> 
                 </label>
@@ -61,15 +61,17 @@
                 </div> <br>
                 <input type="text" id="totalBonos" placeholder="30% salario bruto">  
                 
-                <button id= "Boton" onclick="Calcular()">Calcular</button>
+                <button id= "Boton" onclick="Registrar()">Registrar datos</button>
+
+                <!--<button id= "BotonC" onclick="Calcular()">Calcular</button>-->
         </div>
     </form>
-         <div id= "resultado">
+         <!--<div id= "resultado">
             <h1 id= "empleado">👑</h1>
             <h2>Elisa Palacio Benitez</h2>
             <h1 id= "pesos">🎇</h1><br><br>
             <h2>$6000000 COP</h2>
-         </div>
+         </div>-->
 
          <script src="ejercicio 6.6.js"></script>
 

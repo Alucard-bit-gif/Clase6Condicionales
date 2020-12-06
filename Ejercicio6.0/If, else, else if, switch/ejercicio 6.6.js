@@ -1,8 +1,4 @@
-
-document.getElementById('resultado').style.display="none"; /*Ocultar contenedor de orden de compra */
-
-//Ejercicio # 3
-
+//Ejercicio # 3//
 let nameOne;
 let tipoContrato;
 let horasWork;
@@ -14,47 +10,40 @@ let valorDeduccion;
 let valorBono;
 let salarioNeto;
 
-//Leer y procedimiento con variables iniciales
+function Registrar(){
 
-horasWork = Number(document.getElementById('number').value);
-salarioBruto = valorHora*horasWork;
-document.getElementById('salarioBruto').value = valorHora*horasWork;    
+//Leer variables.
 
-/*function Calcular(){
+horasWork = 60;
 
-    nameOne = document.getElementById('nameOne').value;
+//Invocar funcion.
 
-    tipoContrato = document.getElementById('fijoTemporal').value;
+salarioBruto = totalBruto();
+valorDeduccion = totalDeduc();
+valorBono = totalBono();
 
-    totalPago = salarioNeto();
+//Imprimir
 
-    //Imprimir*/
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    valorDeduccionA = salarioWorkerA*deduccionesMes;
-    valorBonoA = salarioWorkerA*bonificacionesMes;
-    valorTotalA = (salarioWorkerA - valorDeduccionA) + valorBonoA; 
-    
-    valorDeduccionB = salarioWorkerB*deduccionesMes;
-    valorBonoB = salarioWorkerB*bonificacionesMes;
-    valorTotalB = (salarioWorkerB - valorDeduccionB) + valorBonoB; 
+document.getElementById('salarioBruto').value = salarioBruto;    
+document.getElementById('totalDeducciones').value = valorDeduccion;
+document.getElementById('totalBonos').value = valorBono;    
 
-    
-    if(tipoContrato == 'Fijo'){
-        
-    }
-    
-    else {
-        
-    }
+}
 
+function totalBruto(){
+    salarioBruto = valorHora*horasWork;
+    alert(salarioBruto);
+    return salarioBruto;
+}
+
+function totalDeduc(){
+    valorDeduccion = salarioBruto*deduccionesMes;
+    alert(valorDeduccion);
+    return valorDeduccion;
+}
+
+function totalBono(){
+    valorBono = salarioBruto*bonificacionesMes;
+    alert(valorBono);
+    return valorBono;
 }
