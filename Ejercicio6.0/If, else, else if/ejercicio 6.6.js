@@ -57,3 +57,7 @@ function totalBono(){
 }
 
 
+function Calcular()
+{
+
+}
