@@ -14,7 +14,10 @@ function Registrar(){
 
 //Leer variables.
 
-horasWork = 60;
+//Ingresar nombre.
+nameOne = document.getElementById('nameOne').value;
+
+horasWork = document.getElementById('salarioBruto').value;
 
 //Invocar funcion.
 
