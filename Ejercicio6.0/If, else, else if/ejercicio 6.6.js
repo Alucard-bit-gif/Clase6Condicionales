@@ -59,5 +59,7 @@ function totalBono(){
 
 function Calcular()
 {
-
+salarioNeto = (salarioBruto-valorDeduccion) + valorBono;
+alert(salarioNeto);
+return salarioNeto;
 }
