@@ -17,6 +17,9 @@ function Registrar(){
 //Ingresar nombre.
 nameOne = document.getElementById('nameOne').value;
 
+//Ingresar tipo de contrato.
+tipoContrato = document.getElementById('fijoTemporal').value;
+
 horasWork = document.getElementById('salarioBruto').value;
 
 //Invocar funcion.
