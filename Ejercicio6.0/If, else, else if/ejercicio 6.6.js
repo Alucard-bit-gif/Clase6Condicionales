@@ -20,7 +20,9 @@ nameOne = document.getElementById('nameOne').value;
 //Ingresar tipo de contrato.
 tipoContrato = document.getElementById('fijoTemporal').value;
 
-horasWork = document.getElementById('salarioBruto').value;
+//
+
+horasWork = Number(document.getElementById('number').value);
 
 //Invocar funcion.
 
@@ -30,9 +32,9 @@ valorBono = totalBono();
 
 //Imprimir
 
-document.getElementById('salarioBruto').value = salarioBruto;    
-document.getElementById('totalDeducciones').value = valorDeduccion;
-document.getElementById('totalBonos').value = valorBono;    
+document.getElementById('salarioBruto').value = `$ ${salarioBruto}`;    
+document.getElementById('totalDeducciones').value = ` $ ${valorDeduccion}`;
+document.getElementById('totalBonos').value = `$ ${valorBono}`;    
 
 }
 
@@ -53,3 +55,5 @@ function totalBono(){
     alert(valorBono);
     return valorBono;
 }
+
+
