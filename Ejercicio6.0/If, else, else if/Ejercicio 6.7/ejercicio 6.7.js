@@ -2,18 +2,10 @@
 
 document.getElementById('resultado').style.display="none"
 
-let nameOne;
-let tipoContrato;
-let horasWork;
-const valorHora = 6000;
-let salarioBruto;
-const deduccionesMes= 0.08;
-const bonificacionesMes = 0.30;
-let valorDeduccion;
-let valorBono;
-let salarioNeto;
-
-
+let numberOne;
+let numberTwo;
+let numberThree;
+let numberMayor;
 
 
 function Registrar(){
