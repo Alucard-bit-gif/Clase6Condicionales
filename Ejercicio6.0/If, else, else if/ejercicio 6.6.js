@@ -62,12 +62,15 @@ else {
 }
 
 function Calcular()
-{
+{   
+    document.getElementById('survey-form').style.display="none"
+    document.getElementById('resultado').style.display="block"
+
     if(tipoContrato === 'fijo')
 {
 salarioNeto = (salarioBruto-valorDeduccion) + valorBono;
 alert(salarioNeto);
-document.querySelector('#empleado2').innerHTML = `$ ${nameOne}`;    
+document.querySelector('#empleado2').innerHTML = `${nameOne}`;    
 document.querySelector('#pesos2').innerHTML = `$ ${salarioNeto}`;    
 return salarioNeto;
 }
