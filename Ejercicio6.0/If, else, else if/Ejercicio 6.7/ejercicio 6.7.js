@@ -12,8 +12,8 @@ function Registrar(){
 
 //Leer variables.
 
-//Ingresar nombre.
-nameOne = document.getElementById('nameOne').value;
+//Ingresar numero.
+numberOne = document.getElementById('nameOne').value;
 
 //Ingresar tipo de contrato.
 tipoContrato = document.getElementById('fijoTemporal').value;
