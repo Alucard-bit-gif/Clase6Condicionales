@@ -51,22 +51,30 @@ if(tipoContrato === 'fijo')
 salarioBruto = valorHora*horasWork;
 valorDeduccion = salarioBruto*deduccionesMes;
 valorBono = salarioBruto*bonificacionesMes;
-document.querySelector('#empleado2').innerHTML = `$ ${nameOne}`;    
 }
                           
 
 else {
         salarioBruto = valorHora*horasWork;
         alert(salarioBruto);
-        document.querySelector('#pesos2').innerHTML = `$ ${salarioBruto}`;    
         return salarioBruto;
     }
 }
+
 function Calcular()
+{
+    if(tipoContrato === 'fijo')
 {
 salarioNeto = (salarioBruto-valorDeduccion) + valorBono;
 alert(salarioNeto);
+document.querySelector('#empleado2').innerHTML = `$ ${nameOne}`;    
 document.querySelector('#pesos2').innerHTML = `$ ${salarioNeto}`;    
 return salarioNeto;
 }
 
+    else {
+        document.querySelector('#empleado2').innerHTML = `$ ${nameOne}`;
+        document.querySelector('#pesos2').innerHTML = `$ ${salarioBruto}`;        
+    }
+
+}
