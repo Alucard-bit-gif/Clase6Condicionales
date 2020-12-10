@@ -28,10 +28,10 @@
     background: var(--color-darkblue);
     background-image: linear-gradient(
         115deg,
-        rgba(231, 232, 240, 0.904),
-        rgba(126, 133, 170, 0.938)
+        rgba(24, 34, 104, 0.604),
+        rgba(126, 133, 170, 0.638)
       ),
-   url("https://thumbs.dreamstime.com/z/lotto-balls-lottery-clip-art-2205482.jpg"); 
+   url("http://www.allwhitebackground.com/images/5/Creative-Background-HD-Photos.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -74,7 +74,7 @@ h2 {
     text-align: center;
     font-size: 45px;
     margin-top: 10px;
-    color: rgb(255, 1, 1);
+    color: rgb(255, 255, 255);
     font-family: tahoma;
     font-weight: bolder;
 }
@@ -83,7 +83,6 @@ h2 {
 {
     display: block;
     text-align: center;
-    
     border-style: dotted;
     border-color: honeydew;
 }
@@ -109,7 +108,10 @@ h2 {
         border-style: solid;
         border-radius: 5px;
         height: 600px;
-        font-family: arial;
-        color: #ffffff;
         padding-top: 50px;
-        }      
+        text-align: center;
+        }    
+        
+#ganador{
+    font-size: 150px;
+}        
