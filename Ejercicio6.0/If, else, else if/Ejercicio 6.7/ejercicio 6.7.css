@@ -28,10 +28,10 @@
     background: var(--color-darkblue);
     background-image: linear-gradient(
         115deg,
-        rgba(227, 235, 236, 0.7),
-        rgba(18, 221, 221, 0.7)
+        rgba(14, 46, 230, 0.7),
+        rgba(14, 46, 250, 0.7)
       ),
-   url("https://uploads.toptal.io/blog/image/91264/toptal-blog-image-1433736447375-402e02928196d3300c491be959346d20.jpg"); 
+   url("https://thumbs.dreamstime.com/z/lotto-balls-lottery-clip-art-2205482.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
