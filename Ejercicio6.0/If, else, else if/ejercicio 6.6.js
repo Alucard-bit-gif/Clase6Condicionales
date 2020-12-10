@@ -1,4 +1,7 @@
 //Ejercicio # 3//
+
+document.getElementById('OrdenC').style.display="none"
+
 let nameOne;
 let tipoContrato;
 let horasWork;
@@ -29,9 +32,8 @@ horasWork = Number(document.getElementById('number').value);
 
 //Invocar funcion.
 
-salarioBruto = totalBruto();
-valorDeduccion = totalDeduc();
-valorBono = totalBono();
+
+salarioNeto = totalPago();
 
 //Imprimir
 
@@ -41,25 +43,24 @@ document.getElementById('totalBonos').value = `$ ${valorBono}`;
 
 }
 
-function totalBruto(){
-    salarioBruto = valorHora*horasWork;
-    alert(salarioBruto);
-    return salarioBruto;
+function totalPago()
+{
+if(tipoContrato === 'fijo')
+
+{
+salarioBruto = valorHora*horasWork;
+valorDeduccion = salarioBruto*deduccionesMes;
+valorBono = salarioBruto*bonificacionesMes;
 }
+                          
 
-function totalDeduc(){
-    valorDeduccion = salarioBruto*deduccionesMes;
-    alert(valorDeduccion);
-    return valorDeduccion;
+else {
+        salarioBruto = valorHora*horasWork;
+        alert(salarioBruto);
+        document.querySelector('#pesos2').innerHTML = `$ ${salarioBruto}`;    
+        return salarioBruto;
+    }
 }
-
-function totalBono(){
-    valorBono = salarioBruto*bonificacionesMes;
-    alert(valorBono);
-    return valorBono;
-}
-
-
 function Calcular()
 {
 salarioNeto = (salarioBruto-valorDeduccion) + valorBono;
