@@ -28,8 +28,8 @@
     background: var(--color-darkblue);
     background-image: linear-gradient(
         115deg,
-        rgba(10, 44, 238, 0.801),
-        rgba(12, 46, 240, 0.701)
+        rgba(231, 232, 240, 0.904),
+        rgba(126, 133, 170, 0.938)
       ),
    url("https://thumbs.dreamstime.com/z/lotto-balls-lottery-clip-art-2205482.jpg"); 
     background-size: cover;
@@ -48,7 +48,7 @@
 h1 {
     padding: 20px 0px 0px 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(244, 248, 6);  
+    color: rgb(5, 5, 35);  
     color-adjust: exact;
     font-weight: bolder;
     font-size: 60px;
@@ -74,20 +74,42 @@ h2 {
     text-align: center;
     font-size: 45px;
     margin-top: 10px;
-    color: greenyellow;
+    color: rgb(255, 1, 1);
     font-family: tahoma;
     font-weight: bolder;
 }
 
+.numeros
+{
+    display: block;
+    text-align: center;
+    
+    border-style: dotted;
+    border-color: honeydew;
+}
+
+
 #number{
     
         display: block;
-        margin: 30px 50px 30px 40px;
+        margin: 30px 400px 30px 350px;
         width: 650px;
         height: 40px;
         border-radius: 5px;
-        font-size: 18px;
+        font-size: 28px;
         padding-left: 8px;
-        text-align: center;
-        
+        text-align: center;        
       }
+
+#resultado{
+        background-color: rgba(5, 5, 32, 0.8);
+        margin: 50px 300px 50px 330px;
+        border-width: 0px;
+        border-color: #000000;
+        border-style: solid;
+        border-radius: 5px;
+        height: 600px;
+        font-family: arial;
+        color: #ffffff;
+        padding-top: 50px;
+        }      
