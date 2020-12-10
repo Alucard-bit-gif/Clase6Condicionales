@@ -1,0 +1,39 @@
+* { margin: 0; 
+    padding: 0; 
+  border: 0;
+  }
+  
+  header
+  {
+    background-color: #000000;
+    color: rgb(240,240,240);
+    height: 70px;
+    text-align: left;  
+  }
+  
+  p{
+  padding: 20px 0px 0px 30px;
+  font-size: 20px;
+  font-family: Arial;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient(
+        115deg,
+        rgba(227, 235, 236, 0.7),
+        rgba(18, 221, 221, 0.7)
+      ),
+   url("https://uploads.toptal.io/blog/image/91264/toptal-blog-image-1433736447375-402e02928196d3300c491be959346d20.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+  }
