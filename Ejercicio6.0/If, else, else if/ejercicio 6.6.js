@@ -1,6 +1,6 @@
 //Ejercicio # 3//
 
-//document.getElementById('OrdenC').style.display="none"
+document.getElementById('OrdenC').style.display="none"
 
 let nameOne;
 let tipoContrato;
