@@ -51,7 +51,7 @@ h1 {
     color: rgb(244, 248, 6);  
     color-adjust: exact;
     font-weight: bolder;
-    font-size: 45px;
+    font-size: 60px;
     }
 
 h2 {
@@ -60,4 +60,21 @@ h2 {
         margin-top: 80px;
         
       }
-  
+
+#nombre 
+{
+    
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 70px;
+}      
+
+#name-label {
+    display: block;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 10px;
+    color: greenyellow;
+    font-family: tahoma;
+    font-weight: bolder;
+}
