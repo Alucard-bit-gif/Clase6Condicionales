@@ -10,6 +10,9 @@ let valorDeduccion;
 let valorBono;
 let salarioNeto;
 
+
+
+
 function Registrar(){
 
 //Leer variables.
@@ -60,6 +63,8 @@ function totalBono(){
 function Calcular()
 {
 salarioNeto = (salarioBruto-valorDeduccion) + valorBono;
-document.getElementById('pesos').value = `$ ${salarioNeto}`;    
+alert(salarioNeto);
+document.querySelector('#pesos2').innerHTML = `$ ${salarioNeto}`;    
 return salarioNeto;
 }
+
