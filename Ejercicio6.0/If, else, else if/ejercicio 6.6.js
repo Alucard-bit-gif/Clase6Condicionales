@@ -73,7 +73,7 @@ return salarioNeto;
 }
 
     else {
-        document.querySelector('#empleado2').innerHTML = `$ ${nameOne}`;
+        document.querySelector('#empleado2').innerHTML = `${nameOne}`;
         document.querySelector('#pesos2').innerHTML = `$ ${salarioBruto}`;        
     }
 
