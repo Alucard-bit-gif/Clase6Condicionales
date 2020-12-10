@@ -78,3 +78,16 @@ h2 {
     font-family: tahoma;
     font-weight: bolder;
 }
+
+#number{
+    
+        display: block;
+        margin: 30px 50px 30px 40px;
+        width: 650px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 18px;
+        padding-left: 8px;
+        text-align: center;
+        
+      }
