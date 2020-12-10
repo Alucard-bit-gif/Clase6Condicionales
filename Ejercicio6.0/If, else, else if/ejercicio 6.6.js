@@ -51,6 +51,7 @@ if(tipoContrato === 'fijo')
 salarioBruto = valorHora*horasWork;
 valorDeduccion = salarioBruto*deduccionesMes;
 valorBono = salarioBruto*bonificacionesMes;
+document.querySelector('#empleado2').innerHTML = `$ ${nameOne}`;    
 }
                           
 
