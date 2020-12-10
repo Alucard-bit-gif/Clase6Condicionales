@@ -1,29 +1,33 @@
 //Ejercicio # 3//
 
-document.getElementById('resultado').style.display="block";
+let numeroUno;
+let numeroDos;
+let numeroTres;
+let numeroMayor;
 
-let numberOne;
-let numberTwo;
-let numberThree;
-let numberMayor;
-
-function Calcular()
-{
+function Calcular(){
 //Leer variables.
 
 //Ingresar numero.
 
-numberOne = Number(document.getElementById('number1').value);
-numberTwo = Number(document.getElementById('number2').value);
-numberThree = Number(document.getElementById('number3').value);
+numeroUno = Number(document.getElementById('number1').value);
+numeroDos = Number(document.getElementById('number2').value);
+numeroTres = Number(document.getElementById('number3').value);
+
 
 
 //Invocar funcion.
 
-numberMayor = numberOne  + numberTwo + numberThree;
+numeroMayor = numeroUno  + numeroDos + numeroTres;
 
 //Imprimir
 
-alert(numberMayor);
+document.querySelector('numeroMayor').innerHTML = numeroMayor;    
 
 }
+
+
+
+
+
+
